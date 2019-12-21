@@ -1,3 +1,14 @@
+#  Minimal value is greater than zero
+## Number.MIN_VALUE is the smallest number, which is greater than zero:
+
+
+
+```javascript
+
+Number.MIN_VALUE > 0; // -> true
+
+```
+
 #  How can we freeze an object
 
 
