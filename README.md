@@ -1,5 +1,5 @@
 #  Minimal value is greater than zero
-## Number.MIN_VALUE is the smallest number, which is greater than zero:
+###### Number.MIN_VALUE is the smallest number, which is greater than zero:
 
 
 
