@@ -9,6 +9,16 @@ Number.MIN_VALUE > 0; // -> true
 
 ```
 
+#  NaN is a number type
+
+###### Type of NaN is a 'number':
+
+```javascript
+
+typeof NaN; // -> 'number'
+
+```
+
 #  How can we freeze an object
 
 
