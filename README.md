@@ -1,3 +1,14 @@
+#  Comparison of three numbers
+
+###### needs your attention:
+
+```javascript
+
+1 < 2 < 3; // -> true
+3 > 2 > 1; // -> false
+
+```
+
 #  Minimal value is greater than zero
 ###### Number.MIN_VALUE is the smallest number, which is greater than zero:
 
