@@ -1,3 +1,16 @@
+#  ByteSize
+
+###### This snippet returns the length of a string in bytes.:
+
+```javascript
+
+const byteSize = str => new Blob([str]).size;
+
+byteSize('😀'); // 4
+byteSize('Hello World'); // 11
+
+```
+
 #  Comparison of three numbers
 
 ###### needs your attention:
