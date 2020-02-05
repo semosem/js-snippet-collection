@@ -356,4 +356,24 @@ const getRandomNumberInclusive =(min, max)=> {
 getRandomNumberInclusive(2, 10);
 ```
 
+# How to Preload your images.
 
+```javascript
+
+// prevent your site from having that awkward time when it is only displaying part of the site.
+
+function preloadImages(){
+
+    for (i=0; i < preloadImages.arguments.length; i++){
+
+         images[i] = new Image();
+
+        images[i].src = preloadImages.arguments[i];
+
+    }
+
+}
+
+preloadImages("bg.jpg", "body_bg.jpg", "header_bg.jpg");
+
+```
