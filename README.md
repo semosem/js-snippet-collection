@@ -1,3 +1,14 @@
+#  Listing globally installed NPM packages and version
+
+###### This snippet returns the length of a string in bytes.:
+
+```javascript
+
+npm list -g --depth=0
+
+
+```
+
 #  ByteSize
 
 ###### This snippet returns the length of a string in bytes.:
