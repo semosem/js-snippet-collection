@@ -1,6 +1,6 @@
 #  Listing globally installed NPM packages and version
 
-###### This snippet returns the length of a string in bytes.:
+###### This snippet lists npm packages that are globally installed:
 
 ```javascript
 
