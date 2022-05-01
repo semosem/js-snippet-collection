@@ -1,3 +1,18 @@
+#  JavaScript: copy text to clipboard  
+
+###### This snippet allows you to copy text to clipboard with a single button click.:
+
+```javascript
+
+const copyToClipboard = str => {
+  if (navigator && navigator.clipboard && navigator.clipboard.writeText)
+    return navigator.clipboard.writeText(str);
+  return Promise.reject('The Clipboard API is not available.');
+};
+
+
+```
+
 #  Listing globally installed NPM packages and version
 
 ###### This snippet lists npm packages that are globally installed:
@@ -8,6 +23,7 @@ npm list -g --depth=0
 
 
 ```
+
 
 #  ByteSize
 
