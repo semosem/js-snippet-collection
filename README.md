@@ -1,13 +1,13 @@
-#  JavaScript: copy text to clipboard  
+#  JavaScript: Check if an integer is a prime number
 
-###### This snippet allows you to copy text to clipboard with a single button click.:
+###### This snippet allows you to check if the provided integer is a prime number.:
 
 ```javascript
 
-const copyToClipboard = str => {
-  if (navigator && navigator.clipboard && navigator.clipboard.writeText)
-    return navigator.clipboard.writeText(str);
-  return Promise.reject('The Clipboard API is not available.');
+const isPrime = num => {
+  const boundary = Math.floor(Math.sqrt(num));
+  for (let i = 2; i <= boundary; i++) if (num % i === 0) return false;
+  return num >= 2;
 };
 
 
