@@ -1,3 +1,20 @@
+#  JavaScript: Simplified Example of a Higher Order Functions | HOK
+
+###### Some of the main advantages of HOKs => composition, code reusability and readability:
+
+```javascript
+
+const add = (a, b) => a + b;
+const isEven = num => num % 2 === 0;
+
+const data = [2, 3, 1, 5, 4, 6];
+
+const evenValues = data.filter(isEven); // [2, 4, 6]
+const evenSum = data.filter(isEven).reduce(add); // 12
+
+
+```
+
 #  JavaScript: Check if an integer is a prime number
 
 ###### This snippet allows you to check if the provided integer is a prime number.:
