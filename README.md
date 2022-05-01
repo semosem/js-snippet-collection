@@ -1,4 +1,4 @@
-#  JavaScript: Simplified Example of a Higher Order Functions | HOK
+#  JavaScript: Simplified Example of a Higher Order Functions | HOKs
 
 ###### HOKs are simply functions that operate on other functions. Some of the main advantages of HOKs => composition, code reusability and readability:
 
