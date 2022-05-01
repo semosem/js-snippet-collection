@@ -130,6 +130,7 @@ const diff = [
 ];
 console.log('diff',diff) //[3,4]
 
+---------------------
 
 function arrayDiff(a, b) {
     return [
@@ -139,8 +140,7 @@ function arrayDiff(a, b) {
 }
 console.log('arrayDiff',arrayDiff(firstArr, secondArr)) //[3,4]
 
-
-
+--------------
 
 const difference = (a, b) => {
     const setA = new Set(a);
