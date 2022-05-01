@@ -1,6 +1,6 @@
 #  JavaScript: Simplified Example of a Higher Order Functions | HOK
 
-###### Some of the main advantages of HOKs => composition, code reusability and readability:
+###### HOKs are simply functions that operate on other functions. Some of the main advantages of HOKs => composition, code reusability and readability:
 
 ```javascript
 
