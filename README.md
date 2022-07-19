@@ -42,7 +42,7 @@ npm list -g --depth=0
 ```
 
 
-#  Convert a number into a Roman numeral in JavaScript
+#  Convert a number into a Roman numeral in Typescript
 
 
 ```javascript
