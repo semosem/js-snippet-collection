@@ -41,6 +41,49 @@ npm list -g --depth=0
 
 ```
 
+```
+
+#  Convert a number into a Roman numeral in JavaScript
+
+
+```javascript
+
+type Roman  = Record<string, number>;
+
+const numerals = (num: number): string => {
+  
+  const defs: Roman = {
+    M: 1000,
+    CM: 900,
+    D: 500,
+    CD: 400,
+    C: 100,
+    XC: 90,
+    L: 50,
+    XL: 40,
+    X: 10,
+    IX: 9,
+    V: 5,
+    IV: 4,
+    I: 1
+  };
+  var str = '';
+  
+  const keys = Object.keys(defs);
+  
+  keys.forEach((key, index) => {
+    let q = Math.floor(num / defs[key]);
+        num -= q * defs[key];
+    str += key.repeat(q);
+  })
+
+  
+  return str;
+};
+
+
+```
+
 
 #  ByteSize
 
